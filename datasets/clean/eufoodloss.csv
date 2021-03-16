@@ -1,0 +1,67 @@
+,country,crop,timepointyears,percentage_loss_of_quantity,activity,fsc_location1
+4,Denmark,Wheat,2017,,,Farm
+5,Denmark,"Peas, green",2017,,,Farm
+6,Denmark,"Peas, green",2017,,,Pre-Harvest
+7,Denmark,"Peas, green",2017,,,Harvest
+8,Denmark,"Peas, green",2017,,,Processing
+9,Denmark,"Peas, green",2017,,,Distribution
+10,Denmark,Carrots and turnips,2017,,,Harvest
+11,Denmark,Carrots and turnips,2017,,,Farm
+12,Denmark,"Onions and shallots, green",2017,,,Pre-Harvest
+13,Denmark,"Onions and shallots, green",2017,,,Harvest
+14,Denmark,"Onions and shallots, green",2017,,,Storage
+15,Denmark,"Onions and shallots, green",2017,,,Transport
+16,Denmark,"Onions and shallots, green",2017,,,Retail
+17,Denmark,"Onions and shallots, green",2017,,,Farm
+18,Denmark,"Peas, dry",2017,,,Farm
+61,Finland,Wheat,2017,,,Farm
+62,Finland,Rye,2017,,,Farm
+63,Finland,"Peas, green",2017,,,Farm
+64,Finland,Carrots and turnips,2017,,,Farm
+65,Finland,Carrots and turnips,2017,,,Harvest
+66,Finland,"Onions and shallots, green",2017,,,Farm
+67,Finland,"Peas, dry",2017,,,Farm
+68,Finland,"Peas, dry",2017,,,Harvest
+69,Finland,Strawberries,2014,,Sorting,Farm
+70,Finland,"Other fruits, n.e.",2014,13.0,,Consumer
+71,Finland,Rice,2010,,Restaurant,Restaurants
+72,Finland,"Other vegetables, fresh n.e.",2010,,Consumption,Consumer
+73,Finland,"Other vegetables, fresh n.e.",2010,,Consumption in schools,Consumer
+74,Finland,Potatoes,2010,,Restaurant,Restaurants
+220,Austria,Carrots and turnips,2009,20.8,,WholeSupplyChain
+274,Norway,Wheat,2017,,,Farm
+275,Norway,"Peas, green",2017,,,Harvest
+276,Norway,"Peas, green",2017,,,Pre-Harvest
+277,Norway,"Peas, green",2017,,,Processing
+278,Norway,"Peas, green",2017,,,Consumer
+279,Norway,Carrots and turnips,2017,1.6,,Storage
+280,Norway,Carrots and turnips,2017,17.7,,Harvest
+281,Norway,Carrots and turnips,2017,,,Harvest
+282,Norway,Carrots and turnips,2017,,,Farm
+283,Norway,Carrots and turnips,2017,69.4,,Processing
+284,Norway,"Onions and shallots, green",2017,,,Processing
+285,Norway,"Onions and shallots, green",2017,,,Harvest
+286,Norway,"Onions and shallots, green",2017,,,Farm
+344,Sweden,Wheat,2017,,,Harvest
+345,Sweden,Wheat,2017,,,Farm
+346,Sweden,"Peas, green",2017,,,Harvest
+347,Sweden,"Peas, green",2017,,,Farm
+348,Sweden,"Peas, green",2017,,,Processing
+349,Sweden,"Peas, green",2017,,,Pre-Harvest
+350,Sweden,Carrots and turnips,2017,,"washing, trimming or sorting",Farm
+351,Sweden,Carrots and turnips,2017,,storage,Storage
+352,Sweden,Carrots and turnips,2017,,,Processing
+353,Sweden,Carrots and turnips,2017,,,Harvest
+354,Sweden,Carrots and turnips,2017,,"sales or reclamation,",Distribution
+355,Sweden,"Onions and shallots, green",2017,,,Farm
+356,Sweden,"Onions and shallots, green",2017,,,Storage
+357,Sweden,"Onions and shallots, green",2017,,,Processing
+358,Sweden,"Onions and shallots, green",2017,2.4,,Farm
+359,Sweden,"Peas, dry",2017,,,Harvest
+360,Sweden,"Peas, dry",2017,,,Processing
+361,Switzerland,Potatoes,2015,0.003,,Wholesale
+362,Switzerland,Potatoes,2015,0.008,,Processing
+363,Switzerland,Potatoes,2015,0.045,,Farm
+364,Switzerland,Potatoes,2015,0.003,,Wholesale
+365,Switzerland,Potatoes,2015,0.008,,Processing
+366,Switzerland,Potatoes,2015,0.045,,Farm
