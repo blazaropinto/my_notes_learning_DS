@@ -44,6 +44,7 @@ To read the database and build a Table object that we can use in our code.
 
 ```
 from sqlalchemy import MetaData, Table 
+#initialize MetaData
 metadata = MetaData() 
 xx = Table('xx', metadata, autoload=True, autoload_with=engine) 
 #the function repr allow us to see the details
@@ -103,7 +104,7 @@ for result in results:
     print(result.col1, result.col2)
 ```
 
-> the monst common expressions:
+> the most common expressions:
 * `.where()`
 * `.order_by()` to order in ascending order.
 * `desc()` is used inside `order by()`, with the column as argument. It has to be imported from sqlalchemy.
@@ -115,7 +116,18 @@ for result in results:
 
 > if you are only interested in manipulating one record at a time, you can iterate over the ResultProxy directly
 
-> When you use an agg function such as sum or count, the column name that represents the function in our results is set to a placeholder. The  `label()` method can be used on a function to give the output column a specific name.
+> When you use an agg function such as sum or count, the column name that represents the function in our results is set to a placeholder. The  `label()` method can be used on a function to give the output column a specific name. When printing each result row, it can be acessed as `result.label_name`
+
+```
+for result in results:
+    print('{}:{}'.format(result.col1, result.label_name))
+```
+
+> but the `label` of a column is used as string whe ondering the results
+
+```
+stmt = stmt.order_by(desc('label_name'))
+```
 
 > the results can be easily used in pandas
 
@@ -133,6 +145,8 @@ print(df.head())
 df.plot.bar()
 plt.show()
 ```
+
+> to calculate a weighted average, we first find the total sum of weights multiplied by the values we're averaging, then divide by the sum of all the weights (`sum(weights * data) / sum(weights)`).
 
 #### math operations
 
@@ -265,11 +279,11 @@ often requires the use of a command line tool or management application
 
 first, import everything you need (Table, Column and all data types)
 
-> use the Table object to create a table in the previously created metadata with a few columns. 
+> use the `Table` object to create a table in the previously created metadata with a few columns. 
 
-> The Table object is therefore used both to reflect an *existing* table and to create a *new* one (using the `autoload` and `autoload_with` parameters or the `Column` object respectively)
+> The Table object is therefore used both to reflect an *existing* table and to create a *new* one (using the `autoload` and `autoload_with` parameters or the `Column` object, respectively)
 
-> After defining the table, you can create the table in the database by using the .`create_all()` method on metadata and supplying the engine as the only parameter.
+> After defining the table, you can create the table in the database by using the .`create_all()` method on `metadata` and supplying the `engine` as the only parameter.
 
 ```
 # Import Table, Column, String, Integer, Float, Boolean from sqlalchemy
