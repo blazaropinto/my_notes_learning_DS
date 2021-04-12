@@ -1,0 +1,12 @@
+axes.titlesize : 34
+axes.labelsize : 16
+lines.linewidth : 8
+lines.linestyle : -.
+lines.markersize : 10
+xtick.labelsize : 14
+ytick.labelsize : 10
+figure.figsize : 15,8
+axes.facecolor: 'lightsteelblue'
+axes.prop_cycle: cycler(color=['r', 'g', 'b', 'y'])
+axes.titlecolor: 'blueviolet'
+text.color: 'b'
