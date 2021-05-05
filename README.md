@@ -1,5 +1,5 @@
 
-This repository starts as... a little help to my future self...it contains exercises, personal notes and information found in different links while learning Python from scratch from several courses (mainly from [Udemy](https://www.udemy.com/) and [Datacamp](https://www.datacamp.com/courses)) and searching the internet for information to better understand specific issues ( thank you [Stackoverflow](https://stackoverflow.com/)!). It  (and maybe someone else's)
+This repository starts as... a little help to my future self...it contains exercises, personal notes and information found in different links while learning Python from scratch from several courses (mainly from [Udemy](https://www.udemy.com/) and [Datacamp](https://www.datacamp.com/courses)) and searching the internet for information to better understand specific issues ( thank you [Stackoverflow](https://stackoverflow.com/)!). 
 
 The datasets used in the exercices were downloaded from the [FAO] website 
 
